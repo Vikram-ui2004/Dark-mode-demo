@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top: 120px;
+}
+
+.box{
+
+    height: 400px;
+    width: 500px;
+   text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+    
+#change{
+
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgb(39, 35, 35);
+    color: white;
+    border: 1px solid rgb(3, 0, 0);
+    cursor: pointer;
+}
